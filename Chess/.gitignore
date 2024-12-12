@@ -1,0 +1,70 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+
+# Static build artifacts
+*.html
+*.css
+*.css.map
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lint and testing files
+coverage/
+.nyc_output/
+
+# React testing library snapshots
+__snapshots__/
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# React-specific entries
+.cache/ # For tools like Parcel
+public/*.cache # Caching artifacts generated in the public directory
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# ESLint cache
+.eslintcache
+
+# Prettier config
+.prettierignore
+.prettierrc
+
+# Storybook artifacts (if using Storybook)
+storybook-static/

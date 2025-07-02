@@ -1,70 +1,40 @@
 # Node modules
 node_modules/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
-.env
-.env.*.local
-
 # Build output
-dist/
 build/
-out/
-*.js
-*.js.map
-*.d.ts
+dist/
 
-# Static build artifacts
-*.html
-*.css
-*.css.map
+# Logs
+*.log
 
-# TypeScript cache
-*.tsbuildinfo
+# Environment files
+.env
+.env.*
 
-# Editor-specific files
-.idea/
+# Editor / system files
 .vscode/
-*.swp
-
-# System files
+.idea/
 .DS_Store
 Thumbs.db
 
-# Lint and testing files
+# Testing
 coverage/
-.nyc_output/
-
-# React testing library snapshots
 __snapshots__/
 
-# Package manager files
+# Caches
+.cache/
+.nyc_output/
+.eslintcache
+*.tsbuildinfo
+
+# Package managers
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# React-specific entries
-.cache/ # For tools like Parcel
-public/*.cache # Caching artifacts generated in the public directory
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.webp
-*.svg
-
-# ESLint cache
-.eslintcache
-
-# Prettier config
-.prettierignore
-.prettierrc
-
-# Storybook artifacts (if using Storybook)
-storybook-static/
+# Don't ignore source assets
+# KEEP these:
+# ✅ *.css in src/
+# ✅ *.d.ts used by TypeScript
+# ✅ *.png, *.svg for UI/images

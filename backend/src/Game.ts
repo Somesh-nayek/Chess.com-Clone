@@ -58,8 +58,6 @@ export class Game{
             }))
             return;
         } 
-
-        //send the board to the other player
         if(socket===this.player1){
             this.player2.send(JSON.stringify({
                 type:MOVE,

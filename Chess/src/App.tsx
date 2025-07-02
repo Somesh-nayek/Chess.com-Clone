@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Landing } from './Landing'
 import { Game } from './Game'
-import { WannaPlay } from './WannaPlay'
+import { WannaPlay } from './WannaPLay'
 function App() {
   return(
     <BrowserRouter>
